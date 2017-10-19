@@ -25,7 +25,7 @@
 
     <body class="section-white">
 
-        <nav class="navbar navbar-primary navbar-fixed-top" id="sectionsNav">
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sectionsNav">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -35,33 +35,37 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="presentation.html">Greyamp</a>
+                    <div style="display: flex; flex-direction: row">
+                        <img src="assets/img/logo.png" class="img-fluid" style="height: 40px; width: 40px; margin-top: 5px" alt="">
+                        <a class="navbar-brand" style="margin-left: 10px" href="#">Greyamp</a>
+                    </div>
+
                 </div>
 
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="index.html">About Us</a>
+                            <a href="#about">About Us</a>
                         </li>
-                        
+
                         <li>
-                            <a href="index.html">How We Work</a>
+                            <a href="#work">How We Work</a>
                         </li>
-                        
+
                         <li>
-                            <a href="index.html">Services</a>
+                            <a href="#services">Services</a>
                         </li>
-                        
+
                         <li>
-                            <a href="index.html">Case Studies</a>
+                            <a href="#studies">Case Studies</a>
                         </li>
-                        
+
                         <li>
-                            <a href="index.html">Blogs</a>
+                            <a href="#blogs">Blogs</a>
                         </li>
-                        
+
                         <li>
-                            <a href="index.html">Contact Us</a>
+                            <a href="#contact">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -76,46 +80,6 @@
             <!--     *********     HEADER 3      *********      -->
 
             <div class="header-3">
-                <nav class="navbar navbar-transparent navbar-fixed-top navbar-absolute">
-                    <div class="container">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="http://www.creative-tim.com">Creative Tim</a>
-                        </div>
-
-                        <div class="collapse navbar-collapse" id="navigation-example">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li>
-                                    <a href="#pablo">
-                                        Home
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#pablo">
-                                        About Us
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#pablo">
-                                        Products
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#pablo">
-                                        Contact Us
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <div class="carousel slide" data-ride="carousel">
 
@@ -190,13 +154,13 @@
 
         </div>
 
-        <div class="cd-section" id="features">
+        <div class="cd-section">
 
             <div class="container">
 
                 <!--     *********     FEATURES 1      *********      -->
 
-                <div class="features-1">
+                <div class="features-1" id="about">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <h2 class="title">Who we are</h2>
@@ -211,13 +175,11 @@
 
                 <!--     *********     FEATURES 2      *********      -->
 
-                <div class="features-1">
+                <div class="features-1" id="work">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <h2 class="title">How we work</h2>
-                            <h5>We are a team of diverse professionals with backgrounds in sales, consulting, marketing, project management, account management, and strategy, across various domains including FMCG, IT, software development and delivery, and telecom to name a few. The team as a whole has a combined experience of working in 15+ geographies, spanning 4 continents.</h5>
-                            <h5>Greyamp Consulting is focussed on working with enterprises who have realised that digital transformation is the need of the hour. We enjoy the challenges each new engagement brings us, and also the opportunity to both learn, as well as share the knowledge we continue to accumulate.</h5>
-                            <h5>Our modus operandi involves assessment of current state of the team or the organisation as a whole, mapping the current state of the talent and capability in the organisation, charting out the way forward, and enabling digital transformation through an in-depth and hands-on approach.</h5>
+                            <img src="assets/img/work.png" alt="work">
                         </div>
                     </div>
                 </div>
@@ -227,7 +189,7 @@
 
                 <!--     *********     FEATURES 3      *********      -->
 
-                <div class="features-2">
+                <div class="features-2" id="services">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 text-center">
                             <h2 class="title">Our services</h2>
@@ -238,7 +200,7 @@
                         <div class="col-md-6">
                             <div class="info info-horizontal">
                                 <div class="icon icon-info">
-                                    <i class="material-icons">group_work</i>
+                                    <i class="material-icons">assessment</i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Organisation Assessment</h4>
@@ -251,7 +213,7 @@
                         <div class="col-md-6">
                             <div class="info info-horizontal">
                                 <div class="icon icon-danger">
-                                    <i class="material-icons">airplay</i>
+                                    <i class="material-icons">directions_bike</i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Capability Building, Enablement, and Coaching</h4>
@@ -263,7 +225,7 @@
                         <div class="col-md-6">
                             <div class="info info-horizontal">
                                 <div class="icon icon-success">
-                                    <i class="material-icons">location_on</i>
+                                    <i class="material-icons">multiline_chart</i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Transformation Frameworks</h4>
@@ -274,8 +236,8 @@
 
                         <div class="col-md-6">
                             <div class="info info-horizontal">
-                                <div class="icon icon-success">
-                                    <i class="material-icons">location_on</i>
+                                <div class="icon icon-warning">
+                                    <i class="material-icons">devices</i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Digital Transformation</h4>
@@ -297,35 +259,12 @@
 
             <!--     *********    CASE STUDIES 1     *********      -->
 
-            <div class="projects-1" id="projects-1">
+            <div class="projects-1" id="studies">
 
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 text-center">
                             <h2 class="title">Case Studies</h2>
-
-                            <ul class="nav nav-pills nav-pills-rose">
-                                <li class="active"><a href="#pill1" data-toggle="tab">All</a></li>
-                                <li><a href="#pill2" data-toggle="tab">Marketing</a></li>
-                                <li><a href="#pill3" data-toggle="tab">Development</a></li>
-                                <li><a href="#pill3" data-toggle="tab">Productivity</a></li>
-                                <li><a href="#pill5" data-toggle="tab">Web Design</a></li>
-                            </ul>
-                            <div class="tab-content tab-space">
-                                <div class="tab-pane active" id="pill1">
-
-                                </div>
-                                <div class="tab-pane" id="pill2">
-
-                                </div>
-                                <div class="tab-pane" id="pill3">
-
-                                </div>
-                                <div class="tab-pane" id="pill4">
-
-                                </div>
-                            </div>
-
                         </div>
                     </div>
 
@@ -343,10 +282,10 @@
                                         <h3 class="card-title">The Best Productivity Apps on Market</h3>
                                     </a>
                                     <p class="card-description">
-                                        Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                                        Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses...
                                     </p>
                                     <a href="#pablo" class="btn btn-danger btn-round">
-                                        <i class="material-icons">content_copy</i> View App
+                                        <i class="material-icons">subject</i> Case Study
                                     </a>
                                 </div>
                             </div>
@@ -358,10 +297,10 @@
                                     <h6 class="category text-info">Design</h6>
                                     <h3 class="card-title">The Sculpture Where Details Matter</h3>
                                     <p class="card-description">
-                                        Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                                        Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses...
                                     </p>
                                     <a href="#pablo" class="btn btn-info btn-round">
-                                        <i class="material-icons">build</i> View Project
+                                        <i class="material-icons">subject</i> Case Study
                                     </a>
                                 </div>
                             </div>
@@ -373,7 +312,7 @@
                                     <h6 class="category text-info">Marketing</h6>
                                     <h3 class="card-title">0 to 100.000 Customers in 6 months</h3>
                                     <p class="card-description">
-                                        Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                                        Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses...
                                     </p>
                                     <a href="#pablo" class="btn btn-warning btn-round">
                                         <i class="material-icons">subject</i> Case Study
@@ -486,7 +425,7 @@
         </div>
 
         <!--        CONTACT US     -->
-        <div class="main">
+        <div class="main" id="contact">
             <div class="contact-content">
                 <div class="container">
                     <h2 class="title">Send us a message</h2>
@@ -512,7 +451,7 @@
                                     <textarea name="message" class="form-control" id="message" rows="6"></textarea>
                                 </div>
                                 <div class="submit text-center">
-                                    <input type="submit" class="btn btn-primary btn-raised btn-round" value="Contact Us" />
+                                    <input type="btton" class="btn btn-primary btn-raised btn-round" value="Contact Us" />
                                 </div>
                             </form>
                         </div>
@@ -536,11 +475,35 @@
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Give us a ring</h4>
-                                    <p> Michael Jordan<br>
+                                    <p> Greyamp<br>
                                         +91 000 000 0000<br>
                                         Mon - Fri, 8:00-22:00
                                     </p>
                                 </div>
+                            </div>
+                            <div class="soc-link">
+                                <ul class="social-buttons">
+                                    <li>
+                                        <a href="#pablo" class="btn btn-just-icon btn-simple btn-twitter">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#pablo" class="btn btn-just-icon btn-simple btn-facebook">
+                                            <i class="fa fa-facebook-square"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#pablo" class="btn btn-just-icon btn-simple btn-google">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#pablo" class="btn btn-just-icon btn-simple btn-instagram">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -561,27 +524,27 @@
 
                 <ul class="pull-left">
                     <li>
-                        <a href="#pablo">
+                        <a href="#about">
                             About Us
                         </a>
                     </li>
                     <li>
-                        <a href="#pablo">
+                        <a href="#work">
                             How We Work
                         </a>
                     </li>
                     <li>
-                        <a href="#pablo">
+                        <a href="#services">
                             Services
                         </a>
                     </li>
                     <li>
-                        <a href="#pablo">
+                        <a href="#studies">
                             Case Studies
                         </a>
                     </li>
                     <li>
-                        <a href="#pablo">
+                        <a href="#blogs">
                             Blogs
                         </a>
                     </li>
